@@ -121,61 +121,88 @@
   <data name="cheesecake2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cheesecake2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="carrot cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrot cake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cortado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cortado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mocha cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mocha cake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="carbonara pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carbonara pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cheesecake1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cheesecake1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pesto pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pesto pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mocha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="latte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\latte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="parmesan chicken pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parmesan chicken pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Butter Chicken with Rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Butter Chicken with Rice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\americano.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\americano1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\final.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chocolatecroissants" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chocolatecroissants.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="milkshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\milkshake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="carrot cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carrot cake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="strawberry shortcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\strawberry shortcake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mocha cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mocha cake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cheesecake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cheesecake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americano1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Greek Lemon Chicken with Rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Greek Lemon Chicken with Rice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parmesan chicken pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parmesan chicken pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milkshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milkshake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chicken biryani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chicken biryani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheesecake1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheesecake1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mocha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chocolatecroissants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chocolatecroissants.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pesto pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pesto pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="spaghetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spaghetti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strawberry shortcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strawberry shortcake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffeeebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffeeebg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2e5ed7a03c1399634d33ae43d502dac7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2e5ed7a03c1399634d33ae43d502dac7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carbonara pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carbonara pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BBQ Pulled Pork Rice Plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BBQ Pulled Pork Rice Plate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rolly pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rolly pasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steak &amp; Rice Plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steak &amp; Rice Plate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

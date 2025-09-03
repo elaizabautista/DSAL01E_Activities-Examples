@@ -1,6 +1,6 @@
 ﻿namespace POS_Application_Bautista
 {
-    partial class Form1
+    partial class Activity1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.itemnameTxtbox = new System.Windows.Forms.TextBox();
+            this.priceTxtbox = new System.Windows.Forms.TextBox();
             this.newBtn = new System.Windows.Forms.Button();
-            this.extiBtn = new System.Windows.Forms.Button();
+            this.exitBtn = new System.Windows.Forms.Button();
             this.rolly = new System.Windows.Forms.PictureBox();
             this.carbonara = new System.Windows.Forms.PictureBox();
             this.parmesan = new System.Windows.Forms.PictureBox();
@@ -69,13 +69,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.MistyRose;
+            this.label1.BackColor = System.Drawing.Color.Sienna;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 428);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 527);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 24);
+            this.label1.Size = new System.Drawing.Size(117, 29);
             this.label1.TabIndex = 15;
             this.label1.Text = "Item Name:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -83,223 +84,258 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.MistyRose;
+            this.label2.BackColor = System.Drawing.Color.Sienna;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(288, 428);
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(384, 527);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 24);
+            this.label2.Size = new System.Drawing.Size(64, 29);
             this.label2.TabIndex = 16;
             this.label2.Text = "Price:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // itemnameTxtbox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Snow;
-            this.textBox1.Font = new System.Drawing.Font("Bodoni MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(110, 430);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 20);
-            this.textBox1.TabIndex = 17;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.itemnameTxtbox.BackColor = System.Drawing.Color.LightSalmon;
+            this.itemnameTxtbox.Font = new System.Drawing.Font("Bodoni MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemnameTxtbox.Location = new System.Drawing.Point(141, 531);
+            this.itemnameTxtbox.Margin = new System.Windows.Forms.Padding(4);
+            this.itemnameTxtbox.Multiline = true;
+            this.itemnameTxtbox.Name = "itemnameTxtbox";
+            this.itemnameTxtbox.Size = new System.Drawing.Size(208, 24);
+            this.itemnameTxtbox.TabIndex = 17;
+            this.itemnameTxtbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // priceTxtbox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Snow;
-            this.textBox2.Font = new System.Drawing.Font("Bodoni MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(344, 432);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(117, 20);
-            this.textBox2.TabIndex = 18;
+            this.priceTxtbox.BackColor = System.Drawing.Color.LightSalmon;
+            this.priceTxtbox.Font = new System.Drawing.Font("Bodoni MT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceTxtbox.Location = new System.Drawing.Point(456, 531);
+            this.priceTxtbox.Margin = new System.Windows.Forms.Padding(4);
+            this.priceTxtbox.Multiline = true;
+            this.priceTxtbox.Name = "priceTxtbox";
+            this.priceTxtbox.Size = new System.Drawing.Size(155, 24);
+            this.priceTxtbox.TabIndex = 18;
             // 
             // newBtn
             // 
-            this.newBtn.BackColor = System.Drawing.Color.DarkSalmon;
-            this.newBtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newBtn.Location = new System.Drawing.Point(597, 425);
+            this.newBtn.BackColor = System.Drawing.Color.Sienna;
+            this.newBtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newBtn.Location = new System.Drawing.Point(796, 523);
+            this.newBtn.Margin = new System.Windows.Forms.Padding(4);
             this.newBtn.Name = "newBtn";
-            this.newBtn.Size = new System.Drawing.Size(82, 39);
+            this.newBtn.Size = new System.Drawing.Size(109, 48);
             this.newBtn.TabIndex = 19;
             this.newBtn.Text = "New";
             this.newBtn.UseVisualStyleBackColor = false;
-            this.newBtn.Click += new System.EventHandler(this.button1_Click);
+            this.newBtn.Click += new System.EventHandler(this.btnNew_Click);
             // 
-            // extiBtn
+            // exitBtn
             // 
-            this.extiBtn.BackColor = System.Drawing.Color.DarkSalmon;
-            this.extiBtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.extiBtn.Location = new System.Drawing.Point(685, 425);
-            this.extiBtn.Name = "extiBtn";
-            this.extiBtn.Size = new System.Drawing.Size(87, 39);
-            this.extiBtn.TabIndex = 20;
-            this.extiBtn.Text = "Exit";
-            this.extiBtn.UseVisualStyleBackColor = false;
-            this.extiBtn.Click += new System.EventHandler(this.extiBtn_Click);
+            this.exitBtn.BackColor = System.Drawing.Color.Sienna;
+            this.exitBtn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitBtn.Location = new System.Drawing.Point(913, 523);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.Size = new System.Drawing.Size(116, 48);
+            this.exitBtn.TabIndex = 20;
+            this.exitBtn.Text = "Exit";
+            this.exitBtn.UseVisualStyleBackColor = false;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // rolly
             // 
             this.rolly.Image = global::POS_Application_Bautista.Properties.Resources.rolly_pasta;
-            this.rolly.Location = new System.Drawing.Point(638, 278);
+            this.rolly.Location = new System.Drawing.Point(851, 342);
+            this.rolly.Margin = new System.Windows.Forms.Padding(4);
             this.rolly.Name = "rolly";
-            this.rolly.Size = new System.Drawing.Size(150, 127);
+            this.rolly.Size = new System.Drawing.Size(200, 156);
             this.rolly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rolly.TabIndex = 14;
             this.rolly.TabStop = false;
+            this.rolly.Click += new System.EventHandler(this.rolly_Click);
             // 
             // carbonara
             // 
             this.carbonara.Image = global::POS_Application_Bautista.Properties.Resources.carbonara_pasta;
-            this.carbonara.Location = new System.Drawing.Point(480, 278);
+            this.carbonara.Location = new System.Drawing.Point(640, 342);
+            this.carbonara.Margin = new System.Windows.Forms.Padding(4);
             this.carbonara.Name = "carbonara";
-            this.carbonara.Size = new System.Drawing.Size(150, 127);
+            this.carbonara.Size = new System.Drawing.Size(200, 156);
             this.carbonara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carbonara.TabIndex = 13;
             this.carbonara.TabStop = false;
+            this.carbonara.Click += new System.EventHandler(this.carbonara_Click);
             // 
             // parmesan
             // 
             this.parmesan.Image = global::POS_Application_Bautista.Properties.Resources.parmesan_chicken_pasta;
-            this.parmesan.Location = new System.Drawing.Point(324, 278);
+            this.parmesan.Location = new System.Drawing.Point(432, 342);
+            this.parmesan.Margin = new System.Windows.Forms.Padding(4);
             this.parmesan.Name = "parmesan";
-            this.parmesan.Size = new System.Drawing.Size(150, 127);
+            this.parmesan.Size = new System.Drawing.Size(200, 156);
             this.parmesan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.parmesan.TabIndex = 12;
             this.parmesan.TabStop = false;
+            this.parmesan.Click += new System.EventHandler(this.parmesan_Click);
             // 
             // spaghetti
             // 
             this.spaghetti.Image = global::POS_Application_Bautista.Properties.Resources.spaghetti;
-            this.spaghetti.Location = new System.Drawing.Point(168, 278);
+            this.spaghetti.Location = new System.Drawing.Point(224, 342);
+            this.spaghetti.Margin = new System.Windows.Forms.Padding(4);
             this.spaghetti.Name = "spaghetti";
-            this.spaghetti.Size = new System.Drawing.Size(150, 127);
+            this.spaghetti.Size = new System.Drawing.Size(200, 156);
             this.spaghetti.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.spaghetti.TabIndex = 11;
             this.spaghetti.TabStop = false;
+            this.spaghetti.Click += new System.EventHandler(this.spaghetti_Click);
             // 
             // pesto
             // 
             this.pesto.Image = global::POS_Application_Bautista.Properties.Resources.pesto_pasta;
-            this.pesto.Location = new System.Drawing.Point(12, 278);
+            this.pesto.Location = new System.Drawing.Point(16, 342);
+            this.pesto.Margin = new System.Windows.Forms.Padding(4);
             this.pesto.Name = "pesto";
-            this.pesto.Size = new System.Drawing.Size(150, 127);
+            this.pesto.Size = new System.Drawing.Size(200, 156);
             this.pesto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pesto.TabIndex = 10;
             this.pesto.TabStop = false;
+            this.pesto.Click += new System.EventHandler(this.pesto_Click);
             // 
             // chocolatecorissants
             // 
             this.chocolatecorissants.Image = global::POS_Application_Bautista.Properties.Resources.chocolatecroissants;
-            this.chocolatecorissants.Location = new System.Drawing.Point(638, 145);
+            this.chocolatecorissants.Location = new System.Drawing.Point(851, 178);
+            this.chocolatecorissants.Margin = new System.Windows.Forms.Padding(4);
             this.chocolatecorissants.Name = "chocolatecorissants";
-            this.chocolatecorissants.Size = new System.Drawing.Size(150, 127);
+            this.chocolatecorissants.Size = new System.Drawing.Size(200, 156);
             this.chocolatecorissants.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.chocolatecorissants.TabIndex = 9;
             this.chocolatecorissants.TabStop = false;
+            this.chocolatecorissants.Click += new System.EventHandler(this.chocolatecorissants_Click);
             // 
             // mochacake
             // 
             this.mochacake.Image = global::POS_Application_Bautista.Properties.Resources.mocha_cake;
-            this.mochacake.Location = new System.Drawing.Point(480, 145);
+            this.mochacake.Location = new System.Drawing.Point(640, 178);
+            this.mochacake.Margin = new System.Windows.Forms.Padding(4);
             this.mochacake.Name = "mochacake";
-            this.mochacake.Size = new System.Drawing.Size(150, 127);
+            this.mochacake.Size = new System.Drawing.Size(200, 156);
             this.mochacake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mochacake.TabIndex = 8;
             this.mochacake.TabStop = false;
+            this.mochacake.Click += new System.EventHandler(this.mochacake_Click);
             // 
             // cheesecake
             // 
             this.cheesecake.Image = global::POS_Application_Bautista.Properties.Resources.cheesecake2;
-            this.cheesecake.Location = new System.Drawing.Point(324, 145);
+            this.cheesecake.Location = new System.Drawing.Point(432, 178);
+            this.cheesecake.Margin = new System.Windows.Forms.Padding(4);
             this.cheesecake.Name = "cheesecake";
-            this.cheesecake.Size = new System.Drawing.Size(150, 127);
+            this.cheesecake.Size = new System.Drawing.Size(200, 156);
             this.cheesecake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.cheesecake.TabIndex = 7;
             this.cheesecake.TabStop = false;
+            this.cheesecake.Click += new System.EventHandler(this.cheesecake_Click);
             // 
             // carrotcake
             // 
             this.carrotcake.Image = global::POS_Application_Bautista.Properties.Resources.carrot_cake;
-            this.carrotcake.Location = new System.Drawing.Point(168, 145);
+            this.carrotcake.Location = new System.Drawing.Point(224, 178);
+            this.carrotcake.Margin = new System.Windows.Forms.Padding(4);
             this.carrotcake.Name = "carrotcake";
-            this.carrotcake.Size = new System.Drawing.Size(150, 127);
+            this.carrotcake.Size = new System.Drawing.Size(200, 156);
             this.carrotcake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carrotcake.TabIndex = 6;
             this.carrotcake.TabStop = false;
+            this.carrotcake.Click += new System.EventHandler(this.carrotcake_Click);
             // 
             // strawberryshortcake
             // 
             this.strawberryshortcake.Image = global::POS_Application_Bautista.Properties.Resources.strawberry_shortcake;
-            this.strawberryshortcake.Location = new System.Drawing.Point(12, 145);
+            this.strawberryshortcake.Location = new System.Drawing.Point(16, 178);
+            this.strawberryshortcake.Margin = new System.Windows.Forms.Padding(4);
             this.strawberryshortcake.Name = "strawberryshortcake";
-            this.strawberryshortcake.Size = new System.Drawing.Size(150, 127);
+            this.strawberryshortcake.Size = new System.Drawing.Size(200, 156);
             this.strawberryshortcake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.strawberryshortcake.TabIndex = 5;
             this.strawberryshortcake.TabStop = false;
+            this.strawberryshortcake.Click += new System.EventHandler(this.strawberryshortcake_Click);
             // 
             // mocha
             // 
             this.mocha.Image = global::POS_Application_Bautista.Properties.Resources.mocha;
-            this.mocha.Location = new System.Drawing.Point(638, 12);
+            this.mocha.Location = new System.Drawing.Point(851, 15);
+            this.mocha.Margin = new System.Windows.Forms.Padding(4);
             this.mocha.Name = "mocha";
-            this.mocha.Size = new System.Drawing.Size(150, 127);
+            this.mocha.Size = new System.Drawing.Size(200, 156);
             this.mocha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mocha.TabIndex = 4;
             this.mocha.TabStop = false;
+            this.mocha.Click += new System.EventHandler(this.mocha_Click);
             // 
             // latte
             // 
             this.latte.Image = global::POS_Application_Bautista.Properties.Resources.latte;
-            this.latte.Location = new System.Drawing.Point(480, 12);
+            this.latte.Location = new System.Drawing.Point(640, 15);
+            this.latte.Margin = new System.Windows.Forms.Padding(4);
             this.latte.Name = "latte";
-            this.latte.Size = new System.Drawing.Size(150, 127);
+            this.latte.Size = new System.Drawing.Size(200, 156);
             this.latte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.latte.TabIndex = 3;
             this.latte.TabStop = false;
+            this.latte.Click += new System.EventHandler(this.latte_Click);
             // 
             // milkshake
             // 
             this.milkshake.Image = global::POS_Application_Bautista.Properties.Resources.milkshake;
-            this.milkshake.Location = new System.Drawing.Point(324, 12);
+            this.milkshake.Location = new System.Drawing.Point(432, 15);
+            this.milkshake.Margin = new System.Windows.Forms.Padding(4);
             this.milkshake.Name = "milkshake";
-            this.milkshake.Size = new System.Drawing.Size(150, 127);
+            this.milkshake.Size = new System.Drawing.Size(200, 156);
             this.milkshake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.milkshake.TabIndex = 2;
             this.milkshake.TabStop = false;
+            this.milkshake.Click += new System.EventHandler(this.milkshake_Click);
             // 
             // cortado
             // 
             this.cortado.Image = global::POS_Application_Bautista.Properties.Resources.cortado;
-            this.cortado.Location = new System.Drawing.Point(168, 12);
+            this.cortado.Location = new System.Drawing.Point(224, 15);
+            this.cortado.Margin = new System.Windows.Forms.Padding(4);
             this.cortado.Name = "cortado";
-            this.cortado.Size = new System.Drawing.Size(150, 127);
+            this.cortado.Size = new System.Drawing.Size(200, 156);
             this.cortado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.cortado.TabIndex = 1;
             this.cortado.TabStop = false;
+            this.cortado.Click += new System.EventHandler(this.cortado_Click);
             // 
             // americano
             // 
+            this.americano.BackColor = System.Drawing.Color.Sienna;
             this.americano.Image = global::POS_Application_Bautista.Properties.Resources.americano1;
-            this.americano.Location = new System.Drawing.Point(12, 12);
+            this.americano.Location = new System.Drawing.Point(16, 15);
+            this.americano.Margin = new System.Windows.Forms.Padding(4);
             this.americano.Name = "americano";
-            this.americano.Size = new System.Drawing.Size(150, 127);
+            this.americano.Size = new System.Drawing.Size(200, 156);
             this.americano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.americano.TabIndex = 0;
             this.americano.TabStop = false;
-            this.americano.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.americano.Click += new System.EventHandler(this.americano_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.bg12;
-            this.ClientSize = new System.Drawing.Size(798, 484);
-            this.Controls.Add(this.extiBtn);
+            this.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.coffeeebg;
+            this.ClientSize = new System.Drawing.Size(1064, 596);
+            this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.newBtn);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.priceTxtbox);
+            this.Controls.Add(this.itemnameTxtbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rolly);
@@ -317,6 +353,7 @@
             this.Controls.Add(this.milkshake);
             this.Controls.Add(this.cortado);
             this.Controls.Add(this.americano);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -359,10 +396,10 @@
         private System.Windows.Forms.PictureBox pesto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox itemnameTxtbox;
+        private System.Windows.Forms.TextBox priceTxtbox;
         private System.Windows.Forms.Button newBtn;
-        private System.Windows.Forms.Button extiBtn;
+        private System.Windows.Forms.Button exitBtn;
     }
 }
 

@@ -63,6 +63,16 @@ namespace POS_Application_Bautista.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2e5ed7a03c1399634d33ae43d502dac7 {
+            get {
+                object obj = ResourceManager.GetObject("2e5ed7a03c1399634d33ae43d502dac7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap americano {
             get {
                 object obj = ResourceManager.GetObject("americano", resourceCulture);
@@ -83,6 +93,16 @@ namespace POS_Application_Bautista.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BBQ_Pulled_Pork_Rice_Plate {
+            get {
+                object obj = ResourceManager.GetObject("BBQ Pulled Pork Rice Plate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg {
             get {
                 object obj = ResourceManager.GetObject("bg", resourceCulture);
@@ -96,6 +116,26 @@ namespace POS_Application_Bautista.Properties {
         internal static System.Drawing.Bitmap bg12 {
             get {
                 object obj = ResourceManager.GetObject("bg12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg3 {
+            get {
+                object obj = ResourceManager.GetObject("bg3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Butter_Chicken_with_Rice {
+            get {
+                object obj = ResourceManager.GetObject("Butter Chicken with Rice", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,6 +193,16 @@ namespace POS_Application_Bautista.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Chicken_biryani {
+            get {
+                object obj = ResourceManager.GetObject("Chicken biryani", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chocolatecroissants {
             get {
                 object obj = ResourceManager.GetObject("chocolatecroissants", resourceCulture);
@@ -163,9 +213,39 @@ namespace POS_Application_Bautista.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coffeeebg {
+            get {
+                object obj = ResourceManager.GetObject("coffeeebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cortado {
             get {
                 object obj = ResourceManager.GetObject("cortado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap final {
+            get {
+                object obj = ResourceManager.GetObject("final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Greek_Lemon_Chicken_with_Rice {
+            get {
+                object obj = ResourceManager.GetObject("Greek Lemon Chicken with Rice", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +326,16 @@ namespace POS_Application_Bautista.Properties {
         internal static System.Drawing.Bitmap spaghetti {
             get {
                 object obj = ResourceManager.GetObject("spaghetti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Steak___Rice_Plate {
+            get {
+                object obj = ResourceManager.GetObject("Steak & Rice Plate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
