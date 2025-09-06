@@ -155,6 +155,7 @@
             this.label1.Size = new System.Drawing.Size(520, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -166,6 +167,7 @@
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -178,6 +180,7 @@
             this.label3.Size = new System.Drawing.Size(137, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "By: Elaiza Bautista";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -190,6 +193,7 @@
             this.label4.Size = new System.Drawing.Size(102, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "Terminal #21";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // groupBox1
             // 
@@ -216,6 +220,7 @@
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button4
             // 
@@ -372,6 +377,7 @@
             this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Summary";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // discounted_totaltxtbox
             // 
@@ -444,6 +450,7 @@
             this.groupBox3.TabIndex = 37;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "---";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // changetxtbox
             // 
@@ -513,6 +520,7 @@
             this.groupBox4.TabIndex = 38;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "---";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // button19
             // 
@@ -907,6 +915,7 @@
             this.groupBox5.TabIndex = 39;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Items Display";
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // name10lbl
             // 
@@ -1178,6 +1187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
             this.ClientSize = new System.Drawing.Size(1610, 889);
             this.Controls.Add(this.groupBox5);
