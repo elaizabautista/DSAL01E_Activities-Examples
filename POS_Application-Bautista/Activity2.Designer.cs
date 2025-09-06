@@ -907,7 +907,6 @@
             this.groupBox5.TabIndex = 39;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Items Display";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // name10lbl
             // 
@@ -919,7 +918,6 @@
             this.name10lbl.Size = new System.Drawing.Size(65, 23);
             this.name10lbl.TabIndex = 69;
             this.name10lbl.Text = "label10";
-            this.name10lbl.Click += new System.EventHandler(this.name10lbl_Click);
             // 
             // name9lbl
             // 
@@ -931,7 +929,6 @@
             this.name9lbl.Size = new System.Drawing.Size(65, 23);
             this.name9lbl.TabIndex = 68;
             this.name9lbl.Text = "label11";
-            this.name9lbl.Click += new System.EventHandler(this.name9lbl_Click);
             // 
             // name8lbl
             // 
@@ -976,7 +973,6 @@
             this.name5lbl.Size = new System.Drawing.Size(56, 23);
             this.name5lbl.TabIndex = 64;
             this.name5lbl.Text = "label9";
-            this.name5lbl.Click += new System.EventHandler(this.name5lbl_Click);
             // 
             // name4lbl
             // 
@@ -999,7 +995,6 @@
             this.name3lbl.Size = new System.Drawing.Size(56, 23);
             this.name3lbl.TabIndex = 62;
             this.name3lbl.Text = "label7";
-            this.name3lbl.Click += new System.EventHandler(this.name3lbl_Click);
             // 
             // name2lbl
             // 

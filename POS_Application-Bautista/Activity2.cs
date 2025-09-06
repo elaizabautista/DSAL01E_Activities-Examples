@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;   // Needed for Image
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ using System.Windows.Forms;
 
 namespace POS_Application_Bautista
 {
+    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
     public partial class Activity2 : Form
     {
         public Activity2()
@@ -30,11 +32,11 @@ namespace POS_Application_Bautista
             changetxtbox.Enabled = false;
 
             // insert pictures into PictureBoxes
-            pictureBox16.Image = Image.FromFile("C:\\Users\\acer\\source\\repos\\elaizabautista\\POS_Application-Bautista\\Images\\a16.jpg");
-            pictureBox17.Image = Image.FromFile("C:\\Users\\acer\\source\\repos\\elaizabautista\\POS_Application-Bautista\\Images\\a17.jpg");
-            pictureBox18.Image = Image.FromFile("C:\\Users\\acer\\source\\repos\\elaizabautista\\POS_Application-Bautista\\Images\\a18.jpg");
-            pictureBox19.Image = Image.FromFile("C:\\Users\\acer\\source\\repos\\elaizabautista\\POS_Application-Bautista\\Images\\a19.jpg");
-            pictureBox20.Image = Image.FromFile("C:\\Users\\acer\\source\\repos\\elaizabautista\\POS_Application-Bautista\\Images\\a20.jpg");
+            pictureBox16.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a16.jpg");
+            pictureBox17.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a17.jpg");
+            pictureBox18.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a18.jpg");
+            pictureBox19.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a19.jpg");
+            pictureBox20.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a20.jpg");
 
             // insert names into Labels
             name1lbl.Text = "Midnight Brew";
@@ -48,35 +50,9 @@ namespace POS_Application_Bautista
             name7lbl.Text = "Golden Harvest Cake";
             name6lbl.Text = "Berry Dream Slice";
         }
-
-        private void name10lbl_Click(object sender, EventArgs e)
+        private string GetDebuggerDisplay()
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name3lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name5lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name9lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox5_Enter(object sender, EventArgs e)
-        {
-
+            return ToString();
         }
     }
 }
