@@ -30,7 +30,6 @@
         {
             this.totalfeeslistbox = new System.Windows.Forms.ListBox();
             this.totalnumunitslistbox = new System.Windows.Forms.ListBox();
-            this.otherlistbox = new System.Windows.Forms.ListBox();
             this.bookletlistbox = new System.Windows.Forms.ListBox();
             this.ciscolistbox = new System.Windows.Forms.ListBox();
             this.comlablistbox = new System.Windows.Forms.ListBox();
@@ -107,6 +106,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.browsebtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.otherschoolfees1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,17 +132,6 @@
             this.totalnumunitslistbox.Name = "totalnumunitslistbox";
             this.totalnumunitslistbox.Size = new System.Drawing.Size(266, 20);
             this.totalnumunitslistbox.TabIndex = 168;
-            // 
-            // otherlistbox
-            // 
-            this.otherlistbox.BackColor = System.Drawing.Color.Snow;
-            this.otherlistbox.ForeColor = System.Drawing.Color.Crimson;
-            this.otherlistbox.FormattingEnabled = true;
-            this.otherlistbox.ItemHeight = 16;
-            this.otherlistbox.Location = new System.Drawing.Point(277, 1021);
-            this.otherlistbox.Name = "otherlistbox";
-            this.otherlistbox.Size = new System.Drawing.Size(223, 20);
-            this.otherlistbox.TabIndex = 167;
             // 
             // bookletlistbox
             // 
@@ -782,6 +772,7 @@
             this.button2.TabIndex = 105;
             this.button2.Text = "New / Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -791,6 +782,7 @@
             this.button1.TabIndex = 104;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // scholar1
             // 
@@ -904,6 +896,7 @@
             this.browsebtn.TabIndex = 92;
             this.browsebtn.Text = "Browse";
             this.browsebtn.UseVisualStyleBackColor = true;
+            this.browsebtn.Click += new System.EventHandler(this.browsebtn_Click);
             // 
             // pictureBox1
             // 
@@ -913,15 +906,35 @@
             this.pictureBox1.TabIndex = 91;
             this.pictureBox1.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(729, 143);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(223, 46);
+            this.button3.TabIndex = 170;
+            this.button3.Text = "Calculate Tuition Fee";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // otherschoolfees1
+            // 
+            this.otherschoolfees1.BackColor = System.Drawing.Color.Snow;
+            this.otherschoolfees1.ForeColor = System.Drawing.Color.Crimson;
+            this.otherschoolfees1.Location = new System.Drawing.Point(277, 1021);
+            this.otherschoolfees1.Name = "otherschoolfees1";
+            this.otherschoolfees1.Size = new System.Drawing.Size(223, 22);
+            this.otherschoolfees1.TabIndex = 171;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(1016, 1055);
+            this.Controls.Add(this.otherschoolfees1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.totalfeeslistbox);
             this.Controls.Add(this.totalnumunitslistbox);
-            this.Controls.Add(this.otherlistbox);
             this.Controls.Add(this.bookletlistbox);
             this.Controls.Add(this.ciscolistbox);
             this.Controls.Add(this.comlablistbox);
@@ -1000,6 +1013,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1010,7 +1024,6 @@
 
         private System.Windows.Forms.ListBox totalfeeslistbox;
         private System.Windows.Forms.ListBox totalnumunitslistbox;
-        private System.Windows.Forms.ListBox otherlistbox;
         private System.Windows.Forms.ListBox bookletlistbox;
         private System.Windows.Forms.ListBox ciscolistbox;
         private System.Windows.Forms.ListBox comlablistbox;
@@ -1087,5 +1100,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button browsebtn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox otherschoolfees1;
     }
 }

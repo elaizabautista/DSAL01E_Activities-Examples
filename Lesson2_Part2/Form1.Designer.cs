@@ -107,7 +107,6 @@
             this.bookletlistbox = new System.Windows.Forms.ListBox();
             this.totalfeeslistbox = new System.Windows.Forms.ListBox();
             this.totalnumunitslistbox = new System.Windows.Forms.ListBox();
-            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -848,22 +847,12 @@
             this.totalnumunitslistbox.Size = new System.Drawing.Size(266, 20);
             this.totalnumunitslistbox.TabIndex = 89;
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(743, 147);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(223, 46);
-            this.button3.TabIndex = 91;
-            this.button3.Text = "Calculate Tuition Fee";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1045, 1055);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.totalfeeslistbox);
             this.Controls.Add(this.totalnumunitslistbox);
             this.Controls.Add(this.otherlistbox);
@@ -1034,7 +1023,6 @@
         private System.Windows.Forms.ListBox totalfeeslistbox;
         private System.Windows.Forms.ListBox totalnumunitslistbox;
         private System.Windows.Forms.TextBox coursedesc12;
-        private System.Windows.Forms.Button button3;
     }
 }
 

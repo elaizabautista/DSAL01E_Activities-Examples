@@ -144,5 +144,23 @@
   <ItemGroup>
     <None Include="Resources\rolly pasta.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a191.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a20.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

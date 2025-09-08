@@ -207,97 +207,97 @@
             this.name10lbl.ForeColor = System.Drawing.Color.Snow;
             this.name10lbl.Location = new System.Drawing.Point(858, 399);
             this.name10lbl.Name = "name10lbl";
-            this.name10lbl.Size = new System.Drawing.Size(65, 23);
+            this.name10lbl.Size = new System.Drawing.Size(170, 23);
             this.name10lbl.TabIndex = 69;
-            this.name10lbl.Text = "label10";
+            this.name10lbl.Text = "Parisian Choco Twist";
             // 
             // name9lbl
             // 
             this.name9lbl.AutoSize = true;
             this.name9lbl.BackColor = System.Drawing.Color.Transparent;
             this.name9lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name9lbl.Location = new System.Drawing.Point(672, 399);
+            this.name9lbl.Location = new System.Drawing.Point(662, 399);
             this.name9lbl.Name = "name9lbl";
-            this.name9lbl.Size = new System.Drawing.Size(65, 23);
+            this.name9lbl.Size = new System.Drawing.Size(144, 23);
             this.name9lbl.TabIndex = 68;
-            this.name9lbl.Text = "label11";
+            this.name9lbl.Text = "Choco Symphony";
             // 
             // name8lbl
             // 
             this.name8lbl.AutoSize = true;
             this.name8lbl.BackColor = System.Drawing.Color.Transparent;
             this.name8lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name8lbl.Location = new System.Drawing.Point(460, 399);
+            this.name8lbl.Location = new System.Drawing.Point(443, 399);
             this.name8lbl.Name = "name8lbl";
-            this.name8lbl.Size = new System.Drawing.Size(65, 23);
+            this.name8lbl.Size = new System.Drawing.Size(170, 23);
             this.name8lbl.TabIndex = 67;
-            this.name8lbl.Text = "label12";
+            this.name8lbl.Text = "Strawberry Serenade";
             // 
             // name7lbl
             // 
             this.name7lbl.AutoSize = true;
             this.name7lbl.BackColor = System.Drawing.Color.Transparent;
             this.name7lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name7lbl.Location = new System.Drawing.Point(229, 399);
+            this.name7lbl.Location = new System.Drawing.Point(234, 399);
             this.name7lbl.Name = "name7lbl";
-            this.name7lbl.Size = new System.Drawing.Size(65, 23);
+            this.name7lbl.Size = new System.Drawing.Size(172, 23);
             this.name7lbl.TabIndex = 66;
-            this.name7lbl.Text = "label13";
+            this.name7lbl.Text = "Golden Harvest Cake";
             // 
             // name6lbl
             // 
             this.name6lbl.AutoSize = true;
             this.name6lbl.BackColor = System.Drawing.Color.Transparent;
             this.name6lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name6lbl.Location = new System.Drawing.Point(70, 399);
+            this.name6lbl.Location = new System.Drawing.Point(39, 399);
             this.name6lbl.Name = "name6lbl";
-            this.name6lbl.Size = new System.Drawing.Size(65, 23);
+            this.name6lbl.Size = new System.Drawing.Size(147, 23);
             this.name6lbl.TabIndex = 65;
-            this.name6lbl.Text = "label14";
+            this.name6lbl.Text = "Berry Dream Slice";
             // 
             // name5lbl
             // 
             this.name5lbl.AutoSize = true;
             this.name5lbl.BackColor = System.Drawing.Color.Transparent;
             this.name5lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name5lbl.Location = new System.Drawing.Point(864, 182);
+            this.name5lbl.Location = new System.Drawing.Point(874, 182);
             this.name5lbl.Name = "name5lbl";
-            this.name5lbl.Size = new System.Drawing.Size(56, 23);
+            this.name5lbl.Size = new System.Drawing.Size(130, 23);
             this.name5lbl.TabIndex = 64;
-            this.name5lbl.Text = "label9";
+            this.name5lbl.Text = "Chocobliss Cup";
             // 
             // name4lbl
             // 
             this.name4lbl.AutoSize = true;
             this.name4lbl.BackColor = System.Drawing.Color.Transparent;
             this.name4lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name4lbl.Location = new System.Drawing.Point(661, 182);
+            this.name4lbl.Location = new System.Drawing.Point(662, 182);
             this.name4lbl.Name = "name4lbl";
-            this.name4lbl.Size = new System.Drawing.Size(56, 23);
+            this.name4lbl.Size = new System.Drawing.Size(149, 23);
             this.name4lbl.TabIndex = 63;
-            this.name4lbl.Text = "label8";
+            this.name4lbl.Text = "Heartstrings Latte";
             // 
             // name3lbl
             // 
             this.name3lbl.AutoSize = true;
             this.name3lbl.BackColor = System.Drawing.Color.Transparent;
             this.name3lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name3lbl.Location = new System.Drawing.Point(427, 182);
+            this.name3lbl.Location = new System.Drawing.Point(443, 182);
             this.name3lbl.Name = "name3lbl";
-            this.name3lbl.Size = new System.Drawing.Size(56, 23);
+            this.name3lbl.Size = new System.Drawing.Size(161, 23);
             this.name3lbl.TabIndex = 62;
-            this.name3lbl.Text = "label7";
+            this.name3lbl.Text = "Creamy Chill Shake";
             // 
             // name2lbl
             // 
             this.name2lbl.AutoSize = true;
             this.name2lbl.BackColor = System.Drawing.Color.Transparent;
             this.name2lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name2lbl.Location = new System.Drawing.Point(282, 182);
+            this.name2lbl.Location = new System.Drawing.Point(263, 182);
             this.name2lbl.Name = "name2lbl";
-            this.name2lbl.Size = new System.Drawing.Size(56, 23);
+            this.name2lbl.Size = new System.Drawing.Size(120, 23);
             this.name2lbl.TabIndex = 61;
-            this.name2lbl.Text = "label6";
+            this.name2lbl.Text = "Velvet Sunrise";
             this.name2lbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // name1lbl
@@ -425,6 +425,7 @@
             // 
             // pictureBox16
             // 
+            this.pictureBox16.Image = global::Lesson3_Exercises.Properties.Resources.a16;
             this.pictureBox16.Location = new System.Drawing.Point(836, 664);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(200, 156);
@@ -435,6 +436,7 @@
             // 
             // pictureBox17
             // 
+            this.pictureBox17.Image = global::Lesson3_Exercises.Properties.Resources.a18;
             this.pictureBox17.Location = new System.Drawing.Point(630, 664);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(200, 156);
@@ -445,6 +447,7 @@
             // 
             // pictureBox18
             // 
+            this.pictureBox18.Image = global::Lesson3_Exercises.Properties.Resources.a17;
             this.pictureBox18.Location = new System.Drawing.Point(424, 664);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(200, 156);
@@ -455,6 +458,7 @@
             // 
             // pictureBox19
             // 
+            this.pictureBox19.Image = global::Lesson3_Exercises.Properties.Resources.a191;
             this.pictureBox19.Location = new System.Drawing.Point(218, 664);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(200, 156);
@@ -465,6 +469,7 @@
             // 
             // pictureBox20
             // 
+            this.pictureBox20.Image = global::Lesson3_Exercises.Properties.Resources.a20;
             this.pictureBox20.Location = new System.Drawing.Point(12, 664);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(200, 156);
@@ -1269,6 +1274,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load_1);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();

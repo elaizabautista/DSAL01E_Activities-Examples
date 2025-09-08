@@ -29,11 +29,11 @@ namespace Lesson3_Exercises
             changetxtbox.Enabled = false;
 
             // insert pictures into PictureBoxes
-            pictureBox16.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a16.jpg");
-            pictureBox17.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a17.jpg");
-            pictureBox18.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a18.jpg");
-            pictureBox19.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a19.jpg");
-            pictureBox20.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\a20.jpg");
+            pictureBox16.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a16.jpg");
+            pictureBox17.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Imagesa17.jpg");
+            pictureBox18.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a18.jpg");
+            pictureBox19.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a19.jpg");
+            pictureBox20.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a20.jpg");
 
             // insert names into Labels
             name1lbl.Text = "Midnight Brew";
@@ -314,6 +314,11 @@ namespace Lesson3_Exercises
         }
 
         private void name1lbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load_1(object sender, EventArgs e)
         {
 
         }
