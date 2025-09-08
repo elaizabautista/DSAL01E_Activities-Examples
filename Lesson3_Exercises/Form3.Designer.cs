@@ -107,7 +107,7 @@
             this.browsebtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.otherschoolfees1 = new System.Windows.Forms.TextBox();
+            this.otherschoollistbox = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -215,7 +215,7 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.Crimson;
-            this.label31.Location = new System.Drawing.Point(39, 1021);
+            this.label31.Location = new System.Drawing.Point(539, 903);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(174, 18);
             this.label31.TabIndex = 159;
@@ -916,22 +916,24 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // otherschoolfees1
+            // otherschoollistbox
             // 
-            this.otherschoolfees1.BackColor = System.Drawing.Color.Snow;
-            this.otherschoolfees1.ForeColor = System.Drawing.Color.Crimson;
-            this.otherschoolfees1.Location = new System.Drawing.Point(277, 1021);
-            this.otherschoolfees1.Name = "otherschoolfees1";
-            this.otherschoolfees1.Size = new System.Drawing.Size(223, 22);
-            this.otherschoolfees1.TabIndex = 171;
+            this.otherschoollistbox.BackColor = System.Drawing.Color.Snow;
+            this.otherschoollistbox.ForeColor = System.Drawing.Color.Crimson;
+            this.otherschoollistbox.FormattingEnabled = true;
+            this.otherschoollistbox.ItemHeight = 16;
+            this.otherschoollistbox.Location = new System.Drawing.Point(716, 903);
+            this.otherschoollistbox.Name = "otherschoollistbox";
+            this.otherschoollistbox.Size = new System.Drawing.Size(266, 20);
+            this.otherschoollistbox.TabIndex = 171;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(1016, 1055);
-            this.Controls.Add(this.otherschoolfees1);
+            this.ClientSize = new System.Drawing.Size(1016, 1014);
+            this.Controls.Add(this.otherschoollistbox);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.totalfeeslistbox);
             this.Controls.Add(this.totalnumunitslistbox);
@@ -1101,6 +1103,6 @@
         private System.Windows.Forms.Button browsebtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox otherschoolfees1;
+        private System.Windows.Forms.ListBox otherschoollistbox;
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources.cs" />
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -161,6 +170,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\White Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Veggie Supreme Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Truffle Mushroom Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Supreme Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Spinach and Feta Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrimp Scampi Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sausage and Peppers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Philly Cheesesteak Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Pesto Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Pepperoni Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Mushroom Lovers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Mexican Taco Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Meat Lovers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Margherita Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Hawaiian Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Four Cheese Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Buffalo Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Breakfast Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BBQ Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Bacon Cheeseburger Pizza.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
