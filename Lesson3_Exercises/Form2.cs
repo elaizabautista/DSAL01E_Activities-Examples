@@ -183,14 +183,14 @@ namespace Lesson3_Exercises
         private void cortado_Click(object sender, EventArgs e)
         {
             //codes for inserting value of TEXT property of a textbox (item namne & price)
-            itemnametxtbox.Text = name2lbl.Text;
+            itemnametxtbox.Text = "Velvet Sumrise";
             pricetextbox.Text = "150";
         }
 
         private void milkshake_Click(object sender, EventArgs e)
         {
             //codes for inserting value of TEXT property of a textbox (item namne & price)
-            itemnametxtbox.Text = name3lbl.Text;
+            itemnametxtbox.Text = "Creamy Chill Shake";
             pricetextbox.Text = "180.90";
         }
 
@@ -311,6 +311,11 @@ namespace Lesson3_Exercises
             //codes for inserting value of TEXT property of a textbox (item namne & price)
             itemnametxtbox.Text = name20lbl.Text;
             pricetextbox.Text = "890.90";
+        }
+
+        private void name1lbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

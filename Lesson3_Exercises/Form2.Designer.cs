@@ -298,17 +298,20 @@
             this.name2lbl.Size = new System.Drawing.Size(56, 23);
             this.name2lbl.TabIndex = 61;
             this.name2lbl.Text = "label6";
+            this.name2lbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // name1lbl
             // 
             this.name1lbl.AutoSize = true;
             this.name1lbl.BackColor = System.Drawing.Color.Transparent;
             this.name1lbl.ForeColor = System.Drawing.Color.Snow;
-            this.name1lbl.Location = new System.Drawing.Point(79, 182);
+            this.name1lbl.Location = new System.Drawing.Point(53, 178);
             this.name1lbl.Name = "name1lbl";
-            this.name1lbl.Size = new System.Drawing.Size(56, 23);
+            this.name1lbl.Size = new System.Drawing.Size(124, 29);
             this.name1lbl.TabIndex = 60;
-            this.name1lbl.Text = "label5";
+            this.name1lbl.Text = "Midnight Brew";
+            this.name1lbl.UseCompatibleTextRendering = true;
+            this.name1lbl.Click += new System.EventHandler(this.name1lbl_Click);
             // 
             // name20lbl
             // 
@@ -1243,7 +1246,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(10, 12);
+            this.label1.Location = new System.Drawing.Point(130, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(520, 34);
             this.label1.TabIndex = 40;
