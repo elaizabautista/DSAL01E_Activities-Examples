@@ -16,7 +16,7 @@ namespace Lesson3_Exercises
         {
             InitializeComponent();
             foodARdbtn.CheckedChanged += foodARdbtn_CheckedChanged;
-            foodBRdtn.CheckedChanged += foodBRdtn_CheckedChanged;
+            //foodBRdtn.CheckedChanged += foodBRdtn_CheckedChanged;
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Lesson3_Exercises
             price = Convert.ToDouble(priceTxtBox.Text);
             //codes for inserting data inside a listbox
             displayListbox.Items.Add(foodBRdtn.Text + "" + priceTxtBox.Text);
-            displayListbox.Items.Add(""
+            displayListbox.Items.Add("");
         }
     }
 }

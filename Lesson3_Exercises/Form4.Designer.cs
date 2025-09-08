@@ -1064,7 +1064,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(1502, 932);
+            this.ClientSize = new System.Drawing.Size(1516, 932);
             this.Controls.Add(this.displayListbox);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
