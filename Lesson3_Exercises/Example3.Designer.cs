@@ -1,6 +1,6 @@
 ﻿namespace Lesson3_Exercises
 {
-    partial class Form3
+    partial class Example3
     {
         /// <summary>
         /// Required designer variable.
