@@ -121,6 +121,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.displaylistbox = new System.Windows.Forms.ListBox();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
@@ -861,6 +862,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "ENTER";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox3
             // 
@@ -1257,12 +1259,23 @@
             this.label1.TabIndex = 40;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
             // 
-            // Form2
+            // displaylistbox
+            // 
+            this.displaylistbox.FormattingEnabled = true;
+            this.displaylistbox.ItemHeight = 16;
+            this.displaylistbox.Location = new System.Drawing.Point(10, 886);
+            this.displaylistbox.Name = "displaylistbox";
+            this.displaylistbox.Size = new System.Drawing.Size(270, 148);
+            this.displaylistbox.TabIndex = 49;
+            this.displaylistbox.SelectedIndexChanged += new System.EventHandler(this.displaylistbox_SelectedIndexChanged);
+            // 
+            // Example2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lesson3_Exercises.Properties.Resources._2e5ed7a03c1399634d33ae43d502dac7;
-            this.ClientSize = new System.Drawing.Size(1831, 892);
+            this.ClientSize = new System.Drawing.Size(1831, 1055);
+            this.Controls.Add(this.displaylistbox);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -1272,7 +1285,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "Example2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load_1);
             this.groupBox5.ResumeLayout(false);
@@ -1404,5 +1417,6 @@
         private System.Windows.Forms.RadioButton EmployeeRdbtn;
         private System.Windows.Forms.RadioButton regularRbtn;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ListBox displaylistbox;
     }
 }
