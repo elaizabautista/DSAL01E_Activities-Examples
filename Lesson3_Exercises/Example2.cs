@@ -313,37 +313,5 @@ namespace Lesson3_Exercises
             pricetextbox.Text = "890.90";
         }
 
-        private void name1lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            //codes for calling the other form connected to the current form
-            Example2 print = new Example2();
-            //codes for displaying the contents of the listbox from other form to the current form.
-            print.printdisplayListbox.Items.AddRange(displaylistbox.Items);
-            //code for displaying other form
-            print.Show();
-        }
-
-        private void displaylistbox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            displaylistbox.Items.Add(itemnametxtbox.Text);
-            displaylistbox.Items.Add(pricetextbox.Text);
-            displaylistbox.Items.Add(discounttxtbox.Text);
-            displaylistbox.Items.Add(discountedtxtbox.Text);
-            displaylistbox.Items.Add(discounted_totaltxtbox.Text);
-            displaylistbox.Items.Add(qty_totaltxtbox.Text);
-            displaylistbox.Items.Add(discounted_totaltxtbox.Text);
-            displaylistbox.Items.Add(discount_totaltxtbox.Text);
-            displaylistbox.Items.Add(changetxtbox.Text);
-        }
     }
 }
