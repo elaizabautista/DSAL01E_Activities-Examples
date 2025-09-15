@@ -173,6 +173,16 @@ namespace Lesson3_Exercises.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg {
+            get {
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Breakfast_Pizza {
             get {
                 object obj = ResourceManager.GetObject("Breakfast Pizza", resourceCulture);
@@ -506,6 +516,16 @@ namespace Lesson3_Exercises.Properties {
         internal static System.Drawing.Bitmap White_Pizza {
             get {
                 object obj = ResourceManager.GetObject("White Pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Pizza1 {
+            get {
+                object obj = ResourceManager.GetObject("White Pizza1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
