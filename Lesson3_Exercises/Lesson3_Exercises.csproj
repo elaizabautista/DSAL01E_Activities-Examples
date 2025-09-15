@@ -76,6 +76,12 @@
     <Compile Include="PrintForm.Designer.cs">
       <DependentUpon>PrintForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrintForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm2.Designer.cs">
+      <DependentUpon>PrintForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources.cs" />
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm2.resx">
+      <DependentUpon>PrintForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -242,6 +251,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\coffeeebg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

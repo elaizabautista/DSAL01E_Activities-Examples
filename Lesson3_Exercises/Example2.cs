@@ -313,5 +313,24 @@ namespace Lesson3_Exercises
             pricetextbox.Text = "890.90";
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            PrintForm2 print = new PrintForm2();
+
+            // Transfer the important details to Form2's listbox
+            print.printListbox.Items.Add("Item Name:                                " + itemnametxtbox.Text);
+            print.printListbox.Items.Add("Quantity:                                 " + quantitytxtbox.Text);
+            print.printListbox.Items.Add("Price:                                    " + pricetextbox.Text);
+            print.printListbox.Items.Add("Discount Amount:                          " + discounttxtbox.Text);
+            print.printListbox.Items.Add("Discounted Amount:                        " + discountedtxtbox.Text);
+            print.printListbox.Items.Add("Total Quantity:                           " + qty_totaltxtbox.Text);
+            print.printListbox.Items.Add("Total Discount Given:                     " + discount_totaltxtbox.Text);
+            print.printListbox.Items.Add("Total Discounted Given:                   " + discounted_totaltxtbox.Text);
+            print.printListbox.Items.Add("Cash Rendered:                            " + cashrenderedtxtbox.Text);
+            print.printListbox.Items.Add("Change:                                   " + changetxtbox.Text);
+
+            // show the print form
+            print.Show();
+        }
     }
 }

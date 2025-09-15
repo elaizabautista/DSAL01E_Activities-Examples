@@ -73,6 +73,16 @@ namespace Lesson3_Exercises.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2e5ed7a03c1399634d33ae43d502dac71 {
+            get {
+                object obj = ResourceManager.GetObject("2e5ed7a03c1399634d33ae43d502dac71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a16 {
             get {
                 object obj = ResourceManager.GetObject("a16", resourceCulture);
