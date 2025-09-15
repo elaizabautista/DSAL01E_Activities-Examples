@@ -36,7 +36,7 @@
             this.B_halohalocheckBox = new System.Windows.Forms.CheckBox();
             this.exitBtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.quantityTxtbox = new System.Windows.Forms.TextBox();
+            this.qtyTxtbox = new System.Windows.Forms.TextBox();
             this.priceTxtBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@
             this.A_CokeCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.changeTxtbox = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cashGivenTxtbox = new System.Windows.Forms.TextBox();
             this.totalQtyTxtbox = new System.Windows.Forms.TextBox();
             this.totalBillsTxtbox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -233,14 +233,14 @@
             this.button1.Text = "New";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // quantityTxtbox
+            // qtyTxtbox
             // 
-            this.quantityTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
-            this.quantityTxtbox.Location = new System.Drawing.Point(191, 78);
-            this.quantityTxtbox.Multiline = true;
-            this.quantityTxtbox.Name = "quantityTxtbox";
-            this.quantityTxtbox.Size = new System.Drawing.Size(158, 20);
-            this.quantityTxtbox.TabIndex = 4;
+            this.qtyTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
+            this.qtyTxtbox.Location = new System.Drawing.Point(191, 78);
+            this.qtyTxtbox.Multiline = true;
+            this.qtyTxtbox.Name = "qtyTxtbox";
+            this.qtyTxtbox.Size = new System.Drawing.Size(158, 20);
+            this.qtyTxtbox.TabIndex = 4;
             // 
             // priceTxtBox
             // 
@@ -256,7 +256,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.Location = new System.Drawing.Point(591, 779);
+            this.label4.Location = new System.Drawing.Point(591, 827);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 2;
@@ -365,7 +365,7 @@
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.changeTxtbox);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.cashGivenTxtbox);
             this.groupBox2.Controls.Add(this.totalQtyTxtbox);
             this.groupBox2.Controls.Add(this.totalBillsTxtbox);
             this.groupBox2.Controls.Add(this.label10);
@@ -376,7 +376,7 @@
             this.groupBox2.Controls.Add(this.discountedamountTxtbox);
             this.groupBox2.Controls.Add(this.discountamountTxtbox);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.quantityTxtbox);
+            this.groupBox2.Controls.Add(this.qtyTxtbox);
             this.groupBox2.Controls.Add(this.priceTxtBox);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
@@ -398,14 +398,14 @@
             this.changeTxtbox.Size = new System.Drawing.Size(158, 20);
             this.changeTxtbox.TabIndex = 20;
             // 
-            // textBox4
+            // cashGivenTxtbox
             // 
-            this.textBox4.BackColor = System.Drawing.Color.LavenderBlush;
-            this.textBox4.Location = new System.Drawing.Point(191, 247);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(158, 20);
-            this.textBox4.TabIndex = 19;
+            this.cashGivenTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
+            this.cashGivenTxtbox.Location = new System.Drawing.Point(191, 247);
+            this.cashGivenTxtbox.Multiline = true;
+            this.cashGivenTxtbox.Name = "cashGivenTxtbox";
+            this.cashGivenTxtbox.Size = new System.Drawing.Size(158, 20);
+            this.cashGivenTxtbox.TabIndex = 19;
             // 
             // totalQtyTxtbox
             // 
@@ -520,6 +520,7 @@
             this.foodBRdtn.TabStop = true;
             this.foodBRdtn.Text = "Food Bundle B";
             this.foodBRdtn.UseVisualStyleBackColor = true;
+            this.foodBRdtn.CheckedChanged += new System.EventHandler(this.foodBRdtn_CheckedChanged);
             // 
             // foodARdbtn
             // 
@@ -609,7 +610,7 @@
             this.groupBox5.Controls.Add(this.pictureBox1);
             this.groupBox5.Location = new System.Drawing.Point(756, 68);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(740, 713);
+            this.groupBox5.Size = new System.Drawing.Size(748, 713);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Pizza Choices:";
@@ -822,6 +823,7 @@
             this.button4.TabIndex = 22;
             this.button4.Text = "Calculate Bills";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -831,6 +833,7 @@
             this.button3.TabIndex = 21;
             this.button3.Text = "Print Transaction";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -1047,14 +1050,14 @@
             this.displayListbox.ItemHeight = 16;
             this.displayListbox.Location = new System.Drawing.Point(38, 628);
             this.displayListbox.Name = "displayListbox";
-            this.displayListbox.Size = new System.Drawing.Size(498, 148);
+            this.displayListbox.Size = new System.Drawing.Size(498, 196);
             this.displayListbox.TabIndex = 13;
             // 
             // DisplayPictureBox
             // 
             this.DisplayPictureBox.Location = new System.Drawing.Point(542, 628);
             this.DisplayPictureBox.Name = "DisplayPictureBox";
-            this.DisplayPictureBox.Size = new System.Drawing.Size(198, 148);
+            this.DisplayPictureBox.Size = new System.Drawing.Size(208, 196);
             this.DisplayPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DisplayPictureBox.TabIndex = 6;
             this.DisplayPictureBox.TabStop = false;
@@ -1124,7 +1127,7 @@
         private System.Windows.Forms.Button exitBtn;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox DisplayPictureBox;
-        private System.Windows.Forms.TextBox quantityTxtbox;
+        private System.Windows.Forms.TextBox qtyTxtbox;
         private System.Windows.Forms.TextBox priceTxtBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -1145,7 +1148,6 @@
         private System.Windows.Forms.TextBox discountamountTxtbox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox changeTxtbox;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox totalQtyTxtbox;
         private System.Windows.Forms.TextBox totalBillsTxtbox;
         private System.Windows.Forms.Label label10;
@@ -1197,5 +1199,6 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ListBox displayListbox;
+        private System.Windows.Forms.TextBox cashGivenTxtbox;
     }
 }
