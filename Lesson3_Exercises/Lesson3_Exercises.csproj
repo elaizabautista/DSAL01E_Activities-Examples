@@ -76,6 +76,7 @@
     <Compile Include="Example5.Designer.cs">
       <DependentUpon>Example5.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPayroll.cs" />
     <Compile Include="PrintForm.cs">
       <SubType>Form</SubType>
     </Compile>
