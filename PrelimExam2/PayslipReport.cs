@@ -40,56 +40,64 @@ namespace PrelimExam2
             lblPayPeriod.Text = payPeriod;
             lblDepartment.Text = department;
 
-            // Individual earnings
+            // Earnings
             lblBasicPay.Text = basicIncome.ToString("N2");
             lblHonorarium.Text = honorariumIncome.ToString("N2");
             lblOvertime.Text = otherIncome.ToString("N2");
-            lblHonorariumAdjustment.Text = "0.00";
-            lblTardy.Text = "0.00";
-            lblSubstitution.Text = "0.00";
 
-            // Total earnings / gross income
-            double totalEarnings = basicIncome + 0 + 0 + 0 + otherIncome;
+            // Fixed adjustments
+            lblHonorariumAdjustment.Text = "0.00";
+            lblSubstitution.Text = "0.00";
+            lblTardy.Text = "0.00";
+
+            // Total earnings = Basic + Honorarium + Overtime
+            double totalEarnings = basicIncome + honorariumIncome + otherIncome;
             lblearningsTotal.Text = totalEarnings.ToString("N2");
             lblGrossEarnings.Text = totalEarnings.ToString("N2");
 
-            // SSS contribution (from Form1)
-            double sssVal;
-            double.TryParse(sssContribution.Replace(",", ""), out sssVal);
-            lblSSS.Text = sssVal.ToString("N2");
+            // Parse individual deductions (from main form)
+            double sssVal = double.TryParse(sssContribution, out double tempSSS) ? tempSSS : 0.0;
+            double philhealthVal = double.TryParse(philhealthContribution, out double tempPH) ? tempPH : 0.0;
+            double pagibigVal = double.TryParse(pagibigContribution, out double tempPI) ? tempPI : 0.0;
+            double withholdingTaxVal = double.TryParse(incomeTaxContribution, out double tempTax) ? tempTax : 0.0;
 
-            // SSS WISP fixed at 750
+            // Fixed deductions same as main form
             double sssWISPVal = 750.00;
+            double hdmfVal = 200.00;
+
+            // Display individual deductions
+            lblSSS.Text = sssVal.ToString("N2");
             lblSSSWISP.Text = sssWISPVal.ToString("N2");
-
-            // Fixed HDMF (Pag-IBIG)
-            double HDMFVal = 200.00;
-            lblHDMF.Text = HDMFVal.ToString("N2");
-
-            // PhilHealth
-            double philhealthVal;
-            double.TryParse(philhealthContribution.Replace(",", ""), out philhealthVal);
+            lblHDMF.Text = hdmfVal.ToString("N2");
             lblPhilhealth.Text = philhealthVal.ToString("N2");
-
-            // Withholding Tax
-            double withholdingTaxVal;
-            double.TryParse(incomeTaxContribution.Replace(",", ""), out withholdingTaxVal);
             lblWithholdingTax.Text = withholdingTaxVal.ToString("N2");
 
-            // lblDeductionsTotal = sum of all contributions/deductions
-            double sumDeductions = sssVal + sssWISPVal + HDMFVal + philhealthVal + withholdingTaxVal;
-            lblDeductionsTotal.Text = sumDeductions.ToString("N2");
+            // Total deductions = sum of all deductions as in main form
+            double calculatedTotalDeductions = sssVal + philhealthVal + pagibigVal + withholdingTaxVal + sssWISPVal + hdmfVal;
+            lblTotalDeductions.Text = calculatedTotalDeductions.ToString("N2");
+            lblDeductionsTotal.Text = calculatedTotalDeductions.ToString("N2");
 
-            // lblTotalDeductions can remain the value from Form1
-            lblTotalDeductions.Text = totalDeductions.ToString("N2");
-
-            // Net pay
-            double netPay = totalEarnings - sumDeductions;
+            // Net pay = total earnings - total deductions
+            double netPay = totalEarnings - calculatedTotalDeductions;
             lblNetPay.Text = netPay.ToString("N2");
 
             // Overtime total
             lblOvertimeTotal.Text = otherIncome.ToString("N2");
+        }
 
+        private void label38_Click(object sender, EventArgs e)
+        {
+            //
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //
+        }
+
+        private void lblDeductionsTotal_Click(object sender, EventArgs e)
+        {
+            //
         }
     }
 }

@@ -30,6 +30,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            //disable some of the textboxes
             creditunits1.Enabled = false;
             total1.Enabled = false;
             totaltuition1.Enabled = false;
@@ -111,11 +112,12 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             // Show the updated total
             total1.Text = totalUnits.ToString();
 
-            // Calculate Total Tuition Fee
+            // Calculate Total Tuition Fee //const is a value that cannot be changed
             const double TUITION_FEE_PER_UNIT = 1700.00;
             double totalTuitionFee = totalUnits * TUITION_FEE_PER_UNIT;
             totaltuition1.Text = totalTuitionFee.ToString("n");
 
+            //this codes displays the calculated values in the textboxes
             // Get miscellaneous fee values
             double labFee = Convert.ToDouble(labfee1.Text);
             double ciscoFee = Convert.ToDouble(cisco1.Text);

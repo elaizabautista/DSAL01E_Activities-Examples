@@ -37,6 +37,7 @@ namespace PrelimExam2
         private void grossincome_btn_Click(object sender, EventArgs e)
         {
 
+            // Calculate basic, honorarium, and other incomes
             basicIncome = ParseValue(BIratehour_Txtbox) * ParseValue(BINoofHours_Txtbox);
             BIincomecutoff_Txtbox.Text = basicIncome.ToString("N2");
 
@@ -49,17 +50,49 @@ namespace PrelimExam2
             grossIncome = basicIncome + honorariumIncome + otherIncome;
             grossincome_Txtbox.Text = grossIncome.ToString("N2");
 
-            // Use 2025 total SSS contribution (employee + employer + EC)
-            double totalSSSContribution = GetTotalSSSContribution(grossIncome);
-            SSScontribution_Txtbox.Text = totalSSSContribution.ToString("N2");
+            // -------------------------------
+            //SSS Contribution
+            double sssContribution = 0;
+            if (grossIncome <= 3250)
+                sssContribution = 135.00;
+            else if (grossIncome <= 3750)
+                sssContribution = 157.50;
+            else if (grossIncome <= 4250)
+                sssContribution = 180.00;
+            else if (grossIncome <= 4750)
+                sssContribution = 202.50;
+            else if (grossIncome <= 5250)
+                sssContribution = 225.00;
+            else if (grossIncome <= 5750)
+                sssContribution = 247.50;
+            else if (grossIncome <= 6250)
+                sssContribution = 270.00;
+            else if (grossIncome <= 6750)
+                sssContribution = 292.50;
+            else if (grossIncome <= 7250)
+                sssContribution = 315.00;
+            else
+                sssContribution = 337.50;
 
-            double philhealthContribution = GetPhilHealthContribution(grossIncome);
+            SSScontribution_Txtbox.Text = sssContribution.ToString("N2");
+
+            // -------------------------------
+            // PhilHealth Contribution
+            double philhealthContribution = 0;
+            if (grossIncome <= 10000)
+                philhealthContribution = 350.00;
+            else if (grossIncome <= 59999.99)
+                philhealthContribution = grossIncome * 0.035;
+            else
+                philhealthContribution = 2100.00;
+
             philhealthcontribution_Txtbox.Text = philhealthContribution.ToString("N2");
 
-            double pagibigContribution = 200.00; // Fixed at 200
+            //Pag-IBIG Contribution
+            double pagibigContribution = 200.00;
             pagibigcontribution_Txtbox.Text = pagibigContribution.ToString("N2");
-
-            // Income tax calculation (TRAIN law)
+           
+            // Income Tax (TRAIN Law)
             double annualGross = grossIncome * 12;
             double annualTax = 0;
 
@@ -80,26 +113,9 @@ namespace PrelimExam2
             incometaxcontribution_Txtbox.Text = monthlyTax.ToString("N2");
         }
 
-        // 2025 SSS total contribution (employee + employer + EC)
-        private double GetTotalSSSContribution(double grossIncome)
-        {
-            double msc;
-            if (grossIncome < 4000)
-                msc = 4000;
-            else if (grossIncome > 30000)
-                msc = 30000;
-            else
-                msc = Math.Floor(grossIncome / 500) * 500;
-
-            double sss = msc * 0.05; // 5% of MSC (employee + employer)
-            double ec = (msc < 15000) ? 10 : 30; // EC: 10 for <15k, 30 for >=15k
-
-            return sss + ec;
-        }
-
         private double GetPhilHealthContribution(double grossIncome)
         {
-            // 2023: 4% of gross, min 400, max 1600
+            // 2025: 4% of gross, min 400, max 1600
             double contribution = grossIncome * 0.04;
             if (contribution < 400) return 400;
             if (contribution > 1600) return 1600;
@@ -180,7 +196,7 @@ namespace PrelimExam2
 
         private void save_btn_Click(object sender, EventArgs e)
         {
-        // Combine first name, middle name, and surname into one string
+        // Combine first name, middle name, and surname 
         string fullName = firstname_Txtbox.Text + " " + middlename_Txtbox.Text + " " + surname_Txtbox.Text;
         
         //for the paydate
@@ -194,7 +210,7 @@ namespace PrelimExam2
         paydate,   // cutoff
         paydate,   // payperiod (same value as cutoff)
         
-        "College of Engineering, Computer Studies and Architecture", // or department_Txtbox.Text
+        "College of Engineering, Computer Studies and Architecture", 
         
         basicIncome,
         honorariumIncome,
