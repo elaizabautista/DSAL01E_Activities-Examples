@@ -76,6 +76,24 @@
     <Compile Include="Example5.Designer.cs">
       <DependentUpon>Example5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login - Copy.Designer.cs">
+      <DependentUpon>Login - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPayroll.cs" />
     <Compile Include="PrintForm.cs">
       <SubType>Form</SubType>
@@ -106,6 +124,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Example5.resx">
       <DependentUpon>Example5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login - Copy.resx">
+      <DependentUpon>Login - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
@@ -267,6 +294,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\default-avatar-icon-of-social-media-user-vector.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

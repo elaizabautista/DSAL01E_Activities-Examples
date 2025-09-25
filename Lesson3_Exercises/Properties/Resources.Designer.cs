@@ -263,6 +263,16 @@ namespace Lesson3_Exercises.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap default_avatar_icon_of_social_media_user_vector {
+            get {
+                object obj = ResourceManager.GetObject("default-avatar-icon-of-social-media-user-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Four_Cheese_Pizza {
             get {
                 object obj = ResourceManager.GetObject("Four Cheese Pizza", resourceCulture);
