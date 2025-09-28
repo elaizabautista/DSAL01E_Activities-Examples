@@ -99,91 +99,91 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\americano.jpg" />
+    <None Include="Resources2forActivities123\americano.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\americano1.jpg" />
+    <None Include="Resources2forActivities123\americano1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cortado.jpg" />
+    <None Include="Resources2forActivities123\cortado.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\milkshake.jpg" />
+    <None Include="Resources2forActivities123\milkshake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\latte.jpg" />
+    <None Include="Resources2forActivities123\latte.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mocha.jpg" />
+    <None Include="Resources2forActivities123\mocha.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\strawberry shortcake.jpg" />
+    <None Include="Resources2forActivities123\strawberry shortcake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\carrot cake.jpg" />
+    <None Include="Resources2forActivities123\carrot cake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cheesecake.jpg" />
+    <None Include="Resources2forActivities123\cheesecake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cheesecake1.jpg" />
+    <None Include="Resources2forActivities123\cheesecake1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cheesecake2.jpg" />
+    <None Include="Resources2forActivities123\cheesecake2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mocha cake.jpg" />
+    <None Include="Resources2forActivities123\mocha cake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\chocolatecroissants.jpg" />
+    <None Include="Resources2forActivities123\chocolatecroissants.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pesto pasta.jpg" />
+    <None Include="Resources2forActivities123\pesto pasta.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\spaghetti.jpg" />
+    <None Include="Resources2forActivities123\spaghetti.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\parmesan chicken pasta.jpg" />
+    <None Include="Resources2forActivities123\parmesan chicken pasta.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\carbonara pasta.jpg" />
+    <None Include="Resources2forActivities123\carbonara pasta.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rolly pasta.jpg" />
+    <None Include="Resources2forActivities123\rolly pasta.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg.jpg" />
+    <None Include="Resources2forActivities123\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg12.jpg" />
+    <None Include="Resources2forActivities123\bg12.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg3.jpg" />
+    <None Include="Resources2forActivities123\bg3.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\coffeeebg.jpg" />
+    <None Include="Resources2forActivities123\coffeeebg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
+    <None Include="Resources2forActivities123\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\final.jfif" />
+    <None Include="Resources2forActivities123\final.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Butter Chicken with Rice.jpg" />
+    <None Include="Resources2forActivities123\Butter Chicken with Rice.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BBQ Pulled Pork Rice Plate.jpg" />
+    <None Include="Resources2forActivities123\BBQ Pulled Pork Rice Plate.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Chicken biryani.jpg" />
+    <None Include="Resources2forActivities123\Chicken biryani.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Greek Lemon Chicken with Rice.jpg" />
+    <None Include="Resources2forActivities123\Greek Lemon Chicken with Rice.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Steak &amp; Rice Plate.jpg" />
+    <None Include="Resources2forActivities123\Steak &amp; Rice Plate.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

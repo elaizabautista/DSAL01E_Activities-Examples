@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lesson3_Exercises
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
